@@ -73,7 +73,7 @@ unix {
     }
 
     LIBS += -L$${INECRYPTO_LIBDIR} -linecrypto
-    LIBS += -L$${INEUTIL_INCLUDE} -lineutil
+    LIBS += -L$${INEUTIL_LIBDIR} -lineutil
 }
 
 win32 {
@@ -86,7 +86,7 @@ win32 {
     }
 
     LIBS += -L$${INECRYPTO_LIBDIR}/inecrypto.lib
-    LIBS += -L$${INEUTIL_INCLUDE}/ineutil.lib
+    LIBS += -L$${INEUTIL_LIBDIR}/ineutil.lib
 }
 
 ########################################################################################################################

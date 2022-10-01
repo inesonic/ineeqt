@@ -229,7 +229,7 @@ INCLUDEPATH += $${INEUTIL_INCLUDE}
 INCLUDEPATH += $${BOOST_INCLUDE}
 
 LIBS += -L$${INECRYPTO_LIBDIR} -linecrypto
-LIBS += -L$${INEUTIL_INCLUDE} -lineutil
+LIBS += -L$${INEUTIL_LIBDIR} -lineutil
 
 ########################################################################################################################
 # Locate build intermediate and output products
