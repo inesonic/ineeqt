@@ -48,6 +48,10 @@ SOURCES = test_ineeqt.cpp \
 # Libraries
 #
 
+defined(SETTINGS_PRI, var) {
+    include($${SETTINGS_PRI})
+}
+
 INEEQT_BASE = $${OUT_PWD}/../ineeqt
 INCLUDEPATH += $${PWD}/../ineeqt/include
 
