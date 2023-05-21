@@ -35,9 +35,7 @@
 #include <QDialog>
 
 #include "eqt_common.h"
-#include "eqt_programmatic_application.h"
 #include "eqt_programmatic_dialog_proxy.h"
-#include "eqt_builder.h"
 #include "eqt_programmatic_window.h"
 
 class QWidget;
